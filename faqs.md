@@ -1,28 +1,27 @@
 ---
 title: Submission FAQs
-layout: default 
+layout: default
 weight: 5
-hide: true
 ---
 
 
-## Frequently Asked Questions related to AISTATS 2022 submissions
+## Frequently Asked Questions related to AISTATS 2023 submissions
 
 
 1. **I missed the abstract submission deadline. Can I still submit a full paper?**
-   No. You must submit the abstract in time for the deadline on October 8th.
+   No. You must submit the abstract in time for the deadline on October 6th.
 
 2. **While submitting a paper, do we need to nominate one of the authors as a reviewer?**
-Yes, at least one of the authors must be nominated to serve as a reviewer. You can nominate more than one and we encourage that. Nominations of authors who aren’t already a reviewer are preferred, but at least one of the authors of the paper must serve as a reviewer. Please do not nominate any author who is serving as an Area Chair for AISTATS. Due to the recent increase of submissions, we expect we will need a significantly larger number of reviewers than previous years. Kindly understand that your nominations will be important to keep the quality of the conference.
+While not mandatory, we encourage authors to also serve as reviewers in order to ensure that all submissions can receive a sufficient number of reviews whilst ensuring an acceptable load for each reviewer. Due to the recent increase in submissions, we expect we will need a significantly larger number of reviewers than in previous years. Your nominations are important in order to maintain the quality of the conference. There will be a section in the paper submission form to nominate any of the authors to be reviewers. Nominated authors will receive an invitation to be a reviewer, which can be accepted or declined.
 
 3. **We want to submit a version of the work to arXiv. Is it allowed?**
 Yes, submission to arXiv is allowed. However, keep anonymity in the AISTATS submission. Do not cite the arXiv paper, for example.
 
 4. **Can we advertise the preprint of my submission on social media?**
-We strongly discourage advertising the preprint on social media or in the press while under submission to AISTATS 2022. Under no circumstances should your work be explicitly identified as AISTATS submission at any time during the review period, i.e., from the time you submit the abstract to the communication of the accept/reject decisions.
+We strongly discourage advertising the preprint on social media or in the press while under submission to AISTATS. Under no circumstances should your work be explicitly identified as AISTATS submission at any time during the review period, i.e., from the time you submit the abstract to the communication of the accept/reject decisions.
 
 5. **Can the author list be changed?**
-You can change the author list until the deadline of full paper submission (October 15th). After this point, only changes to the author order are allowed, but new authors won’t be added.
+You can change the author list until the deadline of full paper submission (October 13th). After this point, only changes to the author order are allowed, but new authors won’t be added.
 
 6. **Can I withdraw my submission?**
 Yes. You can withdraw your submission at any point in the reviewing process. For statistical purposes, we will count a submission as “rejected” if it is withdrawn after reviews have been made available to authors.
@@ -63,7 +62,7 @@ Authors are encouraged to follow the suggested checklist provided at the end of 
 No, this information will not be visible to reviewers or ACs and will not be taken into account in the paper decisions. It will only be used for statistical purposes.
 
 16. **How can we obtain the citations (references) of our paper in the (Author, Year) format?**
-One option to achieve that goal is to use the latex package `natbib`. For that, you may uncomment lines 19-21 and 24 at the beginning of your main TEX file. In other words, you can use the following:
+One option to achieve that goal is to use the latex package `natbib`. For that, you may uncomment lines 19-21 and 24 at the beginning of your main TEX file (sample_paper.tex in the [AISTATS2023 Paper Pack](https://aistats.org/aistats2023/AISTATS2023PaperPack.zip)). In other words, you can use the following:
 
 ```
 % If you use natbib package, activate the following three lines:
@@ -79,7 +78,7 @@ One option to achieve that goal is to use the latex package `natbib`. For that, 
 \bibliography{your_bib_file}
 ```
 
-Note that, when using `natbib`, you can add or remove the parentheses as follows: 
+Note that, when using `natbib`, you can add or remove the parentheses as follows:
 
 ```
 \cite{foo2021}   % produces Foo et al. (2021)
@@ -87,32 +86,32 @@ Note that, when using `natbib`, you can add or remove the parentheses as follows
 ```
 
 
-## AISTATS 2022: Guidelines and Checklist
+## AISTATS 2023: Guidelines and Checklist
 
 
 Below is a suggested guideline and checklist for paper submissions:
 
 
  1. **For all models and algorithms presented, check if you include:**
-    1. A clear description of the mathematical setting, assumptions, algorithm, and/or model.
-    2. An analysis of the properties and complexity (time, space, sample size) of any algorithm.
-    3. (Optional) Anonymized source code, with specification of all dependencies, including external libraries.
+	1. A clear description of the mathematical setting, assumptions, algorithm, and/or model.
+	2. An analysis of the properties and complexity (time, space, sample size) of any algorithm.
+	3. (Optional) Anonymized source code, with specification of all dependencies, including external libraries.
  2. **For any theoretical claim, check if you include:**
-    1. A statement of the result.
-    2. A clear explanation of any assumptions.
-    3. A complete proof of the claim.
+	1. A statement of the result.
+	2. A clear explanation of any assumptions.
+	3. A complete proof of the claim.
  3. **For all figures and tables that present empirical results, check if you include:**
-    1. A complete description of the data collection process, including sample size.
-    2. A link to a downloadable version of the dataset or simulation environment.
-    3. An explanation of any data that were excluded, description of any pre-processing step.
-    4. An explanation of how samples were allocated for training / validation / testing.
-    5. The range of hyper-parameters considered, method to select the best hyper-parameter configuration, and specification of all hyper-parameters used to generate results.
-    6. The exact number of evaluation runs.
-    7. A description of how experiments were run.
-    8. A clear definition of the specific measure or statistics used to report results.
-    9. Clearly defined error bars.
-    10. A description of results with central tendency (e.g., mean) & variation (e.g., stddev).
-    11. A description of the computing infrastructure used.
+	1. A complete description of the data collection process, including sample size.
+	2. A link to a downloadable version of the dataset or simulation environment.
+	3. An explanation of any data that were excluded, description of any pre-processing step.
+	4. An explanation of how samples were allocated for training / validation / testing.
+	5. The range of hyper-parameters considered, method to select the best hyper-parameter configuration, and specification of all hyper-parameters used to generate results.
+	6. The exact number of evaluation runs.
+	7. A description of how experiments were run.
+	8. A clear definition of the specific measure or statistics used to report results.
+	9. Clearly defined error bars.
+	10. A description of results with central tendency (e.g., mean) & variation (e.g., stddev).
+	11. A description of the computing infrastructure used.
 
 
 
@@ -122,5 +121,6 @@ Below is a suggested guideline and checklist for paper submissions:
 Authors will be given the opportunity to respond to their reviews before decisions are made. This is to enable them to address misunderstandings, point out parts of their submissions that were overlooked, or disagree with the reviewers’ assessments. In previous years, some authors felt that their responses were ignored. As a reviewer, it is your responsibility to read and (if appropriate) respond to each author’s response. It is not fair to ignore any author response, even for submissions that you think should be rejected. Although it is possible that an author’s response will not change your assessment of a submission, you must convey to the authors that you have carefully considered their comments. As you read each author’s response, keep an open mind. Have you overlooked something? Please update each review to indicate that you have read the author's response and whether you agree or disagree with it. You should be more specific than “I have read the author’s response and my opinion remains the same.” If that is the case, you should explain why it remains the same, what the author's response failed to address, etc.
 
 
-LaTeX files for writing a response to reviewers are available on the [AISTATS 2022]({{ "index.html" | relative_url }})  homepage ([click here to download the files](http://aistats.org/aistats2022/AISTATS2022_Author_Response_Pack.zip)). 
-Author responses are due Friday, December 3, 2021 at 11:59 AM UTC.
+LaTeX files for writing a response to reviewers are available on the [AISTATS 2023]({{ "index.html" | relative_url }})  homepage ([click here to download the files](http://aistats.org/aistats2023/AISTATS2023_Author_Response_Pack.zip)).
+Author responses are due Sunday, December 4, 2022 (Anywhere on Earth).
+

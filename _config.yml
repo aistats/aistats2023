@@ -57,7 +57,7 @@ conference:
   # Give the url of the venue here.  
   venue_url:
   # Give the conference location in the form City, Country here.
-  location: TBD, United States of America. 
+  location: TBD.
   year: 2023
   # Give the instance of the conference here (e.g. 24th)
   instance:
@@ -82,6 +82,9 @@ conference:
       type: submission
     - name: Paper submission deadline
       text: 13 October 2022 (Anywhere on Earth)
+      type: submission
+    - name: Supplementary materials submission deadline
+      text: 20 October 2022 (Anywhere on Earth)
       type: submission
     - name: Reviews released to authors
       date: 21 November 2022
@@ -112,8 +115,14 @@ conference:
     people:
     - family: Mandt
       given: Stephan
-      url: http://www.stephanmandt.com/
+      url: https://cims.nyu.edu/~andrewgw/
       institute: UC Irvine
+  - type: Diversity and Inclusion Chair
+    people: 
+    - family: Williamson
+      given: Sinead
+      url:  sinead@austin.utexas.edu
+      institute: UT Austin
   # You might want Workflow Chair(s) to assist with your submission system and the review process.     
   - type: Workflow Chairs
     people:

@@ -34,21 +34,21 @@ Solicited topics include, but are not limited to:
 
 ## Conference Location and Format
 
-The AISTATS 2023 organizing committee is committed to the safety and health of our community.  We are currently reviewing the best option for AISTATS 2023 (either physical, virtual conference, or hybrid). In the event of a physical or hybrid conference, in-person activities will be located in the United States. As soon as we have made a final decision, we will update the information to the webpage. Thank you for your patience and understanding.
+The AISTATS 2023 organizing committee is committed to the safety and health of our community.  We are currently reviewing the best option for AISTATS 2023 (either physical, virtual conference, or hybrid). As soon as we have made a final decision, we will update the information to the webpage. Thank you for your patience and understanding.
 
 
 ## Formatting and Supplementary Material
 
 Submissions are limited to 8 pages excluding references using the LaTeX style file we provide below (the page limit will be 9 for camera-ready submissions). The number of pages containing citations alone is not limited. You can also submit a single file of additional supplementary material which may be either a pdf file (such as proof details) or a zip file for other formats/more files (such as code or videos). Note that reviewers are under no obligation to examine the supplementary material. If you have only one supplementary pdf file, please upload it as is; otherwise gather everything to the single zip file.
 
-Submissions will be through CMT (<https://cmt3.research.microsoft.com/AISTATS2023/>) and will be open approximately 4-6 weeks before the abstract submission deadline.
+Submissions are accepted at <https://cmt3.research.microsoft.com/AISTATS2023/>.
 
 Formatting information (including LaTeX style files) is available in the [AISTATS2023PaperPack](https://aistats.org/aistats2023/AISTATS2023PaperPack.zip). We do not support submission in preparation systems other than LaTeX. Please do not modify the layout given by the style file. If you have questions about the style file or its usage, please contact the publications chair or the program chairs.
 
 
 ## Reviewer Nomination
 
-For each submission, the authors will be requested to nominate at least one of the authors as a reviewer for AISTATS 2023. Nominated reviewers are expected to have sufficient expertise in the relevant field. Kindly understand that by a recent increase of submissions, we need more reviewers than previous years.
+For each submission, the authors will be encouraged to nominate at least one of the authors as a reviewer for AISTATS 2023. Nominated reviewers are expected to have sufficient expertise in the relevant field. Kindly understand that by a recent increase of submissions, we need more reviewers than previous years.
 
 
 ## Anonymization Requirements

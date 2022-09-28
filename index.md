@@ -4,7 +4,7 @@ layout: default
 weight: 1
 ---
 
-The 26th International Conference on Artificial Intelligence and Statistics (AISTATS) will be held in Spring 2023. This conference will be a hybrid in-person virtual event, with in-person activities taking place in the United States of America. 
+The 26th International Conference on Artificial Intelligence and Statistics (AISTATS) will be held in Spring 2023. This conference will be a hybrid in-person virtual event.
 
 # Key Dates 
 
@@ -12,7 +12,7 @@ The 26th International Conference on Artificial Intelligence and Statistics (AIS
 
 # Submission Site
 
-The conference CMT site will open mid September. 
+The conference CMT site is available at 
 
 [{{ site.conference.submission.url }}]({{ site.conference.submission.url }})
 
